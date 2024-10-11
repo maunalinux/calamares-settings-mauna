@@ -1,0 +1,7 @@
+/.pc
+/debian/calamares-settings-mauna/
+/debian/.debhelper/
+/debian/debhelper-build-stamp
+/debian/calamares-settings-mauna.substvars
+/debian/files
+

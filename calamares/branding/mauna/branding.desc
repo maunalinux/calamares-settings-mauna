@@ -1,0 +1,25 @@
+---
+componentName:  mauna
+
+strings:
+    productName:         Mauna Linux
+    shortProductName:    Mauna
+    version:             24.2 Sirius
+    shortVersion:        24.2
+    versionedName:       Mauna Linux 24.2 (Sirius)
+    shortVersionedName:  Mauna 24.2
+    bootloaderEntryName: Mauna
+
+images:
+    productLogo:         "debian-logo.png"
+    productIcon:         "debian-logo.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#2c3133"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#4d7079"
+
+slideshowAPI: 2
