@@ -8,6 +8,7 @@ RELEASE="bookworm"
 
 cat << EOF > $CHROOT/etc/apt/sources.list
 # See https://wiki.debian.org/SourcesList for more information.
+
 deb http://deb.debian.org/debian $RELEASE main contrib non-free non-free-firmware
 #deb-src http://deb.debian.org/debian $RELEASE main contrib non-free non-free-firmware
 

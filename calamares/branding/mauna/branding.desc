@@ -1,13 +1,14 @@
 ---
 componentName:  mauna
+welcomeStyleCalamares: true
 
 strings:
     productName:         Mauna Linux
     shortProductName:    Mauna
-    version:             24.2 Sirius
-    shortVersion:        24.2
-    versionedName:       Mauna Linux 24.2 (Sirius)
-    shortVersionedName:  Mauna 24.2
+    version:             24.4 Sirius
+    shortVersion:        24.4
+    versionedName:       Mauna Linux 24.4 (Sirius)
+    shortVersionedName:  Mauna 24.4
     bootloaderEntryName: Mauna
 
 images:
