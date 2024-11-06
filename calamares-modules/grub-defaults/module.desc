@@ -1,0 +1,6 @@
+---
+type:       "job"
+name:       "grub-defaults"
+interface:  "process"
+command:    "/usr/sbin/grub-defaults"
+timeout:    600

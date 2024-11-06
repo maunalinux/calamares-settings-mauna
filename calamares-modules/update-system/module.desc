@@ -1,0 +1,6 @@
+---
+type:       "job"
+name:       "update-system"
+interface:  "process"
+command:    "/usr/sbin/update-system"
+timeout:    600
