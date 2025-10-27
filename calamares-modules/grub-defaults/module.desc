@@ -2,5 +2,5 @@
 type:       "job"
 name:       "grub-defaults"
 interface:  "process"
-command:    "/usr/sbin/grub-defaults"
+command:    "/usr/share/calamares/helpers/calamares-grub-defaults"
 timeout:    600

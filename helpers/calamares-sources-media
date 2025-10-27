@@ -1,8 +1,16 @@
 #!/bin/sh
 
 CHROOT=$(mount | grep proc | grep calamares | awk '{print $3}' | sed -e "s#/proc##g")
-MEDIUM_PATH="/run/live/medium"
-RELEASE="bookworm"
+KNOWN_MEDIUM_PATHS="/run/live/medium /run/initramfs/live"
+RELEASE="trixie"
+
+# Support both dracut and initramfs configurations to avoid substitutions
+# in live-build, see: #1089618
+for path in $KNOWN_MEDIUM_PATHS; do
+    if [ "$(mount | grep $path | cut -f3 -d" ")" = "$path" ]; then
+        MEDIUM_PATH=$path
+    fi
+done
 
 if [ "$1" = "-u" ]; then
     umount $CHROOT/$MEDIUM_PATH

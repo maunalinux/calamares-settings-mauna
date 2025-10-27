@@ -4,20 +4,20 @@ Source: https://github.com/mauna/calamares-settings-mauna
 
 Files: *
 Copyright: 2016-2020, Jonathan Carter <jcc@debian.org>
-	   2023 Mauna Linux <dev@maunalinux.top>
+	       2023-2025, Mauna Linux <dev@maunalinux.top>
 License: ISC
 
 Files: calamares/branding/mauna/*png
-Copyright: 2023-2024 Mauna Linux <dev@maunalinux.top>
+Copyright: 2023-2025 Mauna Linux <dev@maunalinux.top>
 License: CC-BY-SA-3.0
 
 Files: debian/*
 Copyright: 2016-2020 Jonathan Carter <jcc@debian.org>
-	   2023-2024 Mauna Linux <dev@maunalinux.top>
+	       2023-2025 Mauna Linux <dev@maunalinux.top>
 License: ISC
 
 Files: calamares/branding/mauna/show.qml
-Copyright: 2023-2024 Mauna Linux <dev@maunalinux.top>
+Copyright: 2023-2025 Mauna Linux <dev@maunalinux.top>
 License: GPL-2+
  This program is free software; you can redistribute it
  and/or modify it under the terms of the GNU General Public

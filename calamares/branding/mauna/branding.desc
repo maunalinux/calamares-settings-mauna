@@ -1,15 +1,19 @@
 ---
-componentName:  mauna
+componentName:   mauna
 welcomeStyleCalamares: true
 
 strings:
     productName:         Mauna Linux
     shortProductName:    Mauna
-    version:             24.4 Sirius
-    shortVersion:        24.4
-    versionedName:       Mauna Linux 24.4 (Sirius)
-    shortVersionedName:  Mauna 24.4
+    version:             25
+    shortVersion:        25
+    versionedName:       Mauna Linux 25 (Polaris)
+    shortVersionedName:  Mauna 25
     bootloaderEntryName: Mauna
+    productUrl:          https://maunalinux.top/
+
+sidebar: widget
+navigation: widget
 
 images:
     productLogo:         "debian-logo.png"
@@ -19,9 +23,9 @@ images:
 slideshow:               "show.qml"
 
 style:
-   sidebarBackground:    "#303030"
-   sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#4d7079"
-   sidebarTextSelect:    "#292F34"
+   SidebarBackground:    "#26475b"
+   SidebarText:          "#FFFFFF"
+   SidebarTextCurrent:   "#fbfbfb"
+   SidebarBackgroundCurrent: "#265370"
 
 slideshowAPI: 2

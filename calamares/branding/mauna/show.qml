@@ -1,11 +1,11 @@
-/* === This file is part of Calamares - <https://github.com/calamares> ===
+/* === This file is part of Calamares - <http://github.com/calamares> ===
  *
  *   Copyright 2015, Teo Mrnjavac <teo@kde.org>
+ *   Copyright 2018-2019, Jonathan Carter <jcc@debian.org>
  *
  *   Calamares is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
+ *   the Free Software Foundation, or (at your option) any later version.
  *
  *   Calamares is distributed in the hope that it will be useful,
  *   but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -36,7 +36,7 @@ Presentation
 
         Image {
             id: background
-            source: "01.png"
+            source: "01-information.png"
             anchors.fill: parent
         
             Text {
@@ -63,7 +63,7 @@ Presentation
 
         Image {
             id: background1
-            source: "02.png"
+            source: "02-firefox.png"
             anchors.fill: parent
 
             Text {
@@ -89,7 +89,7 @@ Presentation
 
         Image {
             id: background2
-            source: "03.png"
+            source: "03-software.png"
             anchors.fill: parent
 
             Text {
@@ -113,7 +113,7 @@ Presentation
 
         Image {
             id: background3
-            source: "04.png"
+            source: "04-updates.png"
             anchors.fill: parent
 
             Text {
@@ -138,7 +138,7 @@ Presentation
 
         Image {
             id: background4
-            source: "05.png"
+            source: "05-gimp.png"
             anchors.fill: parent
 
             Text {
@@ -161,7 +161,7 @@ Presentation
 
         Image {
             id: background5
-            source: "06.png"
+            source: "06-desktops.png"
             anchors.fill: parent
 
             Text {
@@ -184,7 +184,7 @@ Presentation
 
         Image {
             id: background6
-            source: "07.png"
+            source: "07-onlyoffice.png"
             anchors.fill: parent
 
             Text {
@@ -207,7 +207,7 @@ Presentation
 
         Image {
             id: background7
-            source: "08.png"
+            source: "08-midia.png"
             anchors.fill: parent
 
             Text {
@@ -230,7 +230,7 @@ Presentation
 
         Image {
             id: background8
-            source: "09.png"
+            source: "09-jogos.png"
             anchors.fill: parent
 
             Text {
@@ -253,7 +253,7 @@ Presentation
 
         Image {
             id: background9
-            source: "10.png"
+            source: "10-encontrar.png"
             anchors.fill: parent
 
             Text {
@@ -271,28 +271,5 @@ Presentation
         }
     }
 
-    Slide {
-        anchors.fill: parent
-
-        Image {
-            id: background10
-            source: "11.png"
-            anchors.fill: parent
-
-            Text {
-                anchors.centerIn: parent
-                anchors.verticalCenterOffset: 0
-                anchors.horizontalCenterOffset: 250
-                font.pixelSize: parent.width *.015
-                color: 'white'
-                text: qsTr("")
-                wrapMode: Text.WordWrap
-                width: 750
-                height: 450
-                horizontalAlignment: Text.Center
-            }
-        }
-    }
-    
     Component.onCompleted: advanceTimer.running = true
 }

@@ -12,6 +12,7 @@ Vcs-Browser: https://github.com/maunalinux/calamares-settings-mauna
 Package: calamares-settings-mauna
 Architecture: all
 Depends: calamares,
+         rsync,
          cryptsetup,
          libglib2.0-bin,
          keyutils,
@@ -21,6 +22,8 @@ Depends: calamares,
          ${misc:Depends}
 Provides: calamares-settings
 Conflicts: calamares-settings-debian
+Breaks: calamares-settings-debian
+Replaces: calamares-settings-debian
 Description: Mauna Linux theme and settings for the Calamares Installer
  Calamares is a generic installer framework for Linux distributions.
  By default, it contains a set of boilerplate wording and images. This

@@ -1,6 +1,6 @@
 #!/bin/sh
 ###
-# Wrapper for running calamares on Debian live media
+# Wrapper for running calamares on Mauna live media
 ###
 
 # Stale file left behind by live-build that messes with partitioning
