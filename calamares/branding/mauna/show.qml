@@ -155,30 +155,7 @@ Presentation
             }
         }
     }
-    
-    Slide {
-        anchors.fill: parent
-
-        Image {
-            id: background5
-            source: "06-desktops.png"
-            anchors.fill: parent
-
-            Text {
-                anchors.centerIn: parent
-                anchors.verticalCenterOffset: 0
-                anchors.horizontalCenterOffset: 250
-                font.pixelSize: parent.width *.015
-                color: 'white'
-                text: qsTr("")
-                wrapMode: Text.WordWrap
-                width: 750
-                height: 450
-                horizontalAlignment: Text.Center
-            }
-        }
-    }
-    
+       
     Slide {
         anchors.fill: parent
 
