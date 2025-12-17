@@ -1,3 +1,9 @@
+calamares-settings-mauna (25.1) polaris; urgency=medium
+
+  * New upstream release
+
+ -- Mauna Linux <dev@maunalinux.top>  Wed, 17 Dec 2025 16:18:44 -0300
+
 calamares-settings-mauna (25.0) polaris; urgency=medium
 
   * New upstream release
