@@ -5,10 +5,10 @@ welcomeStyleCalamares: true
 strings:
     productName:         Mauna Linux
     shortProductName:    Mauna
-    version:             25.1
-    shortVersion:        25.1
-    versionedName:       Mauna Linux 25.1 (Polaris)
-    shortVersionedName:  Mauna 25.1
+    version:             25.2
+    shortVersion:        25.2
+    versionedName:       Mauna Linux 25.2 (Polaris)
+    shortVersionedName:  Mauna 25.2
     bootloaderEntryName: Mauna
     productUrl:          https://maunalinux.top/
 
